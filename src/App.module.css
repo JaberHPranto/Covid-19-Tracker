@@ -7,4 +7,18 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: -1.5rem;
+}
+.covid_img {
+  width: 20rem;
+  height: 13rem;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .covid_img {
+    width: 50%;
+  }
 }
